@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://task-tracker-q1o6.onrender.com",
+  baseURL: "https://task-tracker-q1o6.onrender.com/api/tasks",
 });
 
 export const getTasks = () => API.get("/");
